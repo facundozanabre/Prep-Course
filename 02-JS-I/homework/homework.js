@@ -147,7 +147,7 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var resultado2 = math.pow (num, 3);
+  var resultado2 = Math.pow(num,3);
   return resultado2;
   
 }
@@ -155,7 +155,7 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  var resultado3 = math.pow (num, exponent);
+  var resultado3 = Math.pow(num,exponent);
   return resultado3;
   
 }
@@ -163,7 +163,7 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  var resultado4 = math.round (num);
+  var resultado4 = Math.round(num);
   return resultado4;
   
 }
@@ -171,7 +171,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  var resultado5 = math.ceil (num);
+  var resultado5 = Math.ceil(num);
   return resultado5;
   
 }
