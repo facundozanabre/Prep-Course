@@ -58,7 +58,7 @@ function multiplica(x, y) {
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+
   return x/y;
   
 }
@@ -67,7 +67,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  If (x == y)
+  If (x === y)
    return true;
    else
    return false;
@@ -78,7 +78,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.length == str2.length)
+  if (str1.length === str2.length)
   return true;
   else
   return false;
@@ -109,7 +109,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return var = x%y;
+  return x % y;
 
 }
 
@@ -131,7 +131,7 @@ function esImpar(num) {
   if (num esImpar)
   return true;
   else
-  return false
+  return false;
 }
 
 function elevarAlCuadrado(num) {
@@ -173,7 +173,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  math.random ();
+  math.random (0, 1);
   
 }
 
@@ -201,7 +201,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return nombre + apellido;
+  return nombre + " " + apellido;
   
 }
 
@@ -209,7 +209,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola" + nombre;
+  return "Hola " + nombre;
   
 }
 
