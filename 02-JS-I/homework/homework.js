@@ -44,7 +44,8 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-return y - x;
+  var resta = x - y;
+return resta;
   
 }
 
@@ -138,35 +139,40 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return math.pow (num, 2);
+   var resultado1 = math.pow (num, 2);
+   return resultado1;
   
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return math.pow (num, 3);
+  var resultado2 = math.pow (num, 3);
+  return resultado2;
   
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return math.pow (num, exponent);
+  var resultado3 = math.pow (num, exponent);
+  return resultado3;
   
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  return math.round (nume);
+  var resultado4 = math.round (num);
+  return resultado4;
   
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return math.ceil (num);
+  var resultado5 = math.ceil (num);
+  return resultado5;
   
 }
 
