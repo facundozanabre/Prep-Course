@@ -50,7 +50,7 @@ function saludo(idioma) {
 if (idioma === "aleman")
 return "Guten Tag!";
 if (idioma === "mandarin")
-return "Ni Hao";
+return "Ni Hao!";
 if (idioma === "ingles")
 return "Hello!";
 if (idioma !== "aleman" && idioma !== "mandarin" && idioma !== "ingles" || idioma === undefined)
