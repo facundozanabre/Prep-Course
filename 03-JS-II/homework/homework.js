@@ -134,25 +134,17 @@ function operadoresLogicos(num1, num2, num3) {
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false.
   if (num1 > num2 && num1 > num3 && num1 > 0)
     return "Número 1 es mayor y positivo";
-
-  if (num1 < 0 || num2 < 0 || num3 < 0){
+  if (num1 < 0 || num2 < 0 || num3 < 0)
     return "Hay negativos";
-  }
   var numero3 = num;
-  if (num3 > num1 && num3 > num2){
+  if (num3 > num1 && num3 > num2)
   numero3 = num3++;
   return numero3;
-  }
-  if (num1 === 0 || num2 === 0 || num3 === 0){
+  if (num1 === 0 || num2 === 0 || num3 === 0)
   return "Error"; 
-  }
-  else{
+  else
     return "false";
-  }
-
   
-  
-
 }
 
 function esPrimo(numero) {
