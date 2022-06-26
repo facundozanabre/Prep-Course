@@ -47,13 +47,13 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-if (idioma === aleman)
+if (idioma === "aleman")
 return "Guten Tag!";
-if (idioma === mandarin)
+if (idioma === "mandarin")
 return "Ni Hao";
-if (idioma === ingles)
+if (idioma === "ingles")
 return "Hello!";
-if (idioma !== aleman && idioma !== mandarin && idioma !== ingles || idioma === undefined)
+if (idioma !== "aleman" && idioma !== "mandarin" && idioma !== "ingles" || idioma === undefined)
 return "Hola!";
 }
 
