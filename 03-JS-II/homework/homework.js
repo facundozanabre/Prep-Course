@@ -5,13 +5,12 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-  if (x === y)
-  console.log(x);
-  console.log(y);
   if (x > y)
-  console.log(x);
+    return x;
+  if (x < y)
+  return y;
   else
-  console.log(y);
+  return x || y;
 
 
 
