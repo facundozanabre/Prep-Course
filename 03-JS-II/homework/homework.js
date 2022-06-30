@@ -145,7 +145,7 @@ function operadoresLogicos(num1, num2, num3) {
   numero3 = num3++;
   return numero3;
   }else{
-    return "false";
+    return false;
   }
 }
 
@@ -172,9 +172,9 @@ function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
-  if (valor = true)
+  if (valor === true)
   return "Soy verdadero";
-  else if (valor = false)
+  else if (valor === false)
   return "Soy falso";
 
 }
