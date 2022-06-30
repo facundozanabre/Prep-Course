@@ -159,15 +159,16 @@ if (numero === 2){
 return true;
 }
 else if (numero < 2){
-  return falso;
+  return false;
 }
 for (var i = 2; i < numero; i++){
-if (numero % i === 0){
-  return falso;
+  if (numero % i === 0){
+     return false;
+}
 }
 return true;
 }
-}
+
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
