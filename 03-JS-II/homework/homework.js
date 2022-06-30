@@ -108,7 +108,7 @@ function esEntero(numero) {
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
 if (numero % 1 === 0){
-  return "true";
+  return true;
 }
   else{
   return false;
