@@ -12,8 +12,13 @@ function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
   
-  var ultimoelemnto = array.length;
-  return array[ultimoelemento];
+  for (i = 0; i = array.length; i++){
+     if (i = array.length){
+      return array[i];
+     }
+
+  }
+  
 }
 
 
