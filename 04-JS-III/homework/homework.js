@@ -14,7 +14,7 @@ function devolverUltimoElemento(array) {
   
   for (i = 0; i = array.length; i++){
      if (i = array.length){
-      return array[i];
+      return array[i - 1];
      }
 
   }
