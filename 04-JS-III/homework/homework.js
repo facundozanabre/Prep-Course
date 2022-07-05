@@ -36,10 +36,9 @@ function incrementarPorUno(array) {
   // y devuelve el array
   // Tu código:
 
-  var array = [1];
-
-  while (array[array.length - 1] > 0)
-     array.push[(array[array.length - 1]) + 1];
+  for (i = 0; i < array.length; i++)
+  while (i < array.length)
+     array[i] + 1;
      return array;
 
   
