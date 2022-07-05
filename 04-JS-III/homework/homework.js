@@ -37,7 +37,7 @@ function incrementarPorUno(array) {
   // Tu código:
 
   for (i = 0; i < array.length; i++)
-  while (i < array.length)
+  if (i < array.length)
      array[i] + 1;
      return array;
 
