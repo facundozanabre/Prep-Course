@@ -38,10 +38,10 @@ function incrementarPorUno(array) {
 
   var array = [1];
 
-  while (array.length - 1 > 0)
-     array.push[(array.length - 1) + 1];
+  while (array[array.length - 1] > 0)
+     array.push[(array[array.length - 1]) + 1];
      return array;
-     
+
   
 }
 
