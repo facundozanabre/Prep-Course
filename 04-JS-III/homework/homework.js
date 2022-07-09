@@ -84,9 +84,11 @@ function arrayContiene(array, elemento) {
 
   for (var i = 0; i < array.length; i++){
      if (array[i] === elemento){
-      console.log(true);
+      return true;
      }
-      return false; 
+     else{
+      return false;
+     }
     }
   }
 function agregarNumeros(numeros) {
