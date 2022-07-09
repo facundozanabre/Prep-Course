@@ -83,16 +83,12 @@ function arrayContiene(array, elemento) {
   // Tu código:
 
   for (var i = 0; i < array.length; i++){
-     if ( array[i] === elemento){
-      return true;
-     } else {
-      return false;
+     if (array[i] === elemento){
+      console.log(true);
      }
-
-     }
-}
-
-
+      return false; 
+    }
+  }
 function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
