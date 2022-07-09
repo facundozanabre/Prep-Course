@@ -84,9 +84,9 @@ function arrayContiene(array, elemento) {
 
   for (var i = 0; i < array.length; i++){
      if ( array[i] === elemento){
-      return "true";
+      return true;
      } else {
-      return "false";
+      return false;
      }
 
      }
