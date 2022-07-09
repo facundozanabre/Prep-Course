@@ -76,7 +76,7 @@ function dePalabrasAFrase(palabras) {
 
   var str = "";
   for (var i = 0; i < palabras.length; i++){
-    var str = palabras.Pop[i] + " ";
+    var str = palabras[i] + " ";
   }
   return str;
 
