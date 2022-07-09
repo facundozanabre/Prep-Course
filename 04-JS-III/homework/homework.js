@@ -73,6 +73,13 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+
+  var str = [];
+  for (var i = 0; i < palabras.length; i++){
+    str.push(palabras[i] + " ");
+  }
+  return str;
+
 }
 
 
